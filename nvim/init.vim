@@ -30,6 +30,7 @@ Plug 'https://github.com/chaoren/vim-wordmotion'
 Plug 'andymass/vim-matchup'
 Plug 'jwalton512/vim-blade'
 Plug 'https://github.com/preservim/nerdcommenter'
+Plug 'https://github.com/github/copilot.vim'
 
 set encoding=UTF-8
 
