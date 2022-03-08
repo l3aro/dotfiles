@@ -33,6 +33,7 @@ Plug 'https://github.com/preservim/nerdcommenter'
 Plug 'https://github.com/github/copilot.vim'
 Plug 'https://github.com/tpope/vim-surround'
 Plug 'https://github.com/chrisbra/matchit'
+Plug 'https://github.com/f-person/git-blame.nvim'
 
 set encoding=UTF-8
 
