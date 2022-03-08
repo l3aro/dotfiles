@@ -31,6 +31,8 @@ Plug 'andymass/vim-matchup'
 Plug 'jwalton512/vim-blade'
 Plug 'https://github.com/preservim/nerdcommenter'
 Plug 'https://github.com/github/copilot.vim'
+Plug 'https://github.com/tpope/vim-surround'
+Plug 'https://github.com/chrisbra/matchit'
 
 set encoding=UTF-8
 
