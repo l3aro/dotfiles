@@ -1,4 +1,5 @@
 Plug 'https://github.com/neoclide/coc.nvim'
+Plug 'yaegassy/coc-intelephense', {'do': 'yarn install --frozen-lockfile'}
 
 if executable('intelephense')
   augroup LspPHPIntelephense

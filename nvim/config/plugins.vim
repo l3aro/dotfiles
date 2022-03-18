@@ -20,5 +20,8 @@ source ~/.config/nvim/config/plugins/prettier.vim
 source ~/.config/nvim/config/plugins/nerd-commenter.vim
 source ~/.config/nvim/config/plugins/matchup.vim
 source ~/.config/nvim/config/plugins/copilot.vim
+source ~/.config/nvim/config/plugins/sayonara.vim
+source ~/.config/nvim/config/plugins/scroll.vim
+source ~/.config/nvim/config/plugins/dashboard.vim
 
 call plug#end()

@@ -11,3 +11,4 @@ require'nvim-treesitter.configs'.setup {
 }
 EOF
 
+lua require('neoscroll').setup()
