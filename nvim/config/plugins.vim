@@ -23,5 +23,6 @@ source ~/.config/nvim/config/plugins/copilot.vim
 source ~/.config/nvim/config/plugins/sayonara.vim
 source ~/.config/nvim/config/plugins/scroll.vim
 source ~/.config/nvim/config/plugins/dashboard.vim
+source ~/.config/nvim/config/plugins/git.vim
 
 call plug#end()

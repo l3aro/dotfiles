@@ -5,6 +5,7 @@ nmap <leader>vc :edit ~/.config/nvim/coc-settings.json<cr>
 nmap <leader>vr :source ~/.config/nvim/init.vim<cr>
 
 nmap <leader>Q :bufdo bdelete<cr>
+nmap <leader>fs :Sayonara!<cr>
 map <esc> :noh <CR>
 
 " Allow gf to open/create non exists file
@@ -20,6 +21,8 @@ nnoremap Y y$
 
 " Quicky escape to normal mode
 imap jj <esc>
+imap <C-s> <esc> :w <cr>
+nmap <C-s> :w <cr>
 
 nmap <leader>mj ddp
 nmap <leader>mk ddkP
