@@ -26,3 +26,5 @@ source ~/.config/nvim/config/plugins/dashboard.vim
 source ~/.config/nvim/config/plugins/git.vim
 
 call plug#end()
+
+doautocmd User PlugLoaded

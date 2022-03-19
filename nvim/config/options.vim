@@ -16,6 +16,7 @@
 :set cursorline
 :set t_Co=256
 :set t_ut=
+:set clipboard=unnamedplus
 
 set encoding=UTF-8
 syntax on

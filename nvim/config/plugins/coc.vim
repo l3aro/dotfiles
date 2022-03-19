@@ -1,6 +1,27 @@
 Plug 'https://github.com/neoclide/coc.nvim'
 Plug 'yaegassy/coc-intelephense', {'do': 'yarn install --frozen-lockfile'}
 
+let g:coc_global_extensions = [
+    \ 'coc-css',
+    \ 'coc-diagnostic',
+    \ 'coc-emmet',
+    \ 'coc-eslint',
+    \ 'coc-git',
+    \ 'coc-html',
+    \ 'coc-json',
+    \ 'coc-pairs',
+    \ 'coc-phpls',
+    \ 'coc-php-cs-fixer',
+    \ 'coc-prettier',
+    \ 'coc-sh',
+    \ 'coc-snippets',
+    \ 'coc-sql',
+    \ 'coc-svg',
+    \ 'https://github.com/rodrigore/coc-tailwind-intellisense',
+    \ 'coc-tsserver',
+    \ '@yaegassy/coc-volar',
+\ ]
+
 if executable('intelephense')
   augroup LspPHPIntelephense
     au!
