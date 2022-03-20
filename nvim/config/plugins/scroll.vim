@@ -1,7 +1,11 @@
 Plug 'karb94/neoscroll.nvim'
 
 function SetupNeoscroll()
-lua require('neoscroll').setup()
+lua << EOF
+require('neoscroll').setup({
+	mappings = {'<C-u>', 'C-d'}
+})
+EOF
 endfunction
 
 augroup ScrollOverrides
