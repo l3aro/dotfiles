@@ -26,3 +26,6 @@ nmap <C-s> :w <cr>
 
 nmap <leader>mj ddp
 nmap <leader>mk ddkP
+
+" Search selected text
+vnoremap // y/\V<C-R>=escape(@",'/\')<CR><CR>
