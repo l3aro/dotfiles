@@ -146,3 +146,6 @@ alias pa="php artisan"
 alias change_php="sudo update-alternatives --config php"
 alias nv="nvim"
 alias la="ls -a"
+# Generated for envman. Do not edit.
+[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
+eval "$(zoxide init zsh)"
