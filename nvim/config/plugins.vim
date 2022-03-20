@@ -24,6 +24,7 @@ source ~/.config/nvim/config/plugins/sayonara.vim
 source ~/.config/nvim/config/plugins/scroll.vim
 source ~/.config/nvim/config/plugins/dashboard.vim
 source ~/.config/nvim/config/plugins/git.vim
+source ~/.config/nvim/config/plugins/float-terminal.vim
 
 call plug#end()
 
