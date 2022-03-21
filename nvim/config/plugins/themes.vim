@@ -1,5 +1,5 @@
 " https://github.com/rafi/awesome-vim-colorschemes
-Plug 'https://github.com/ryanoasis/vim-devicons'
+Plug 'https://github.com/kyazdani42/nvim-web-devicons'
 Plug 'tomasiser/vim-code-dark'
 
 augroup ThemeOverrides
