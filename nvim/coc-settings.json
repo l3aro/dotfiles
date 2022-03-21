@@ -28,5 +28,12 @@
     "intelephense.environment.phpVersion": "8",
     "tailwindCSS.validate": true,
     "tailwindCSS.emmetCompletions": true,
-    "prettier.requireConfig": true
+    "prettier.requireConfig": true,
+	// explorer
+	"explorer.width": 30,
+	"explorer.icon.enableNerdfont": true,
+	"explorer.previewAction.onHover": "content",
+	"explorer.keyMappings.global": {
+		"v": "open:vsplit"
+	}
 }
