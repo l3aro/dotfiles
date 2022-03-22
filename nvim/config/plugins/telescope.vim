@@ -16,6 +16,13 @@ nnoremap <leader>fp <cmd>Telescope project<cr>
 
 function SetupTelescope()
 lua << EOF
+require'telescope'.setup({
+	pickers = {
+		find_files = {
+			hidden = true
+		}
+	}
+})
 require'telescope'.load_extension('media_files')
 require'telescope'.load_extension('zoxide')
 require'telescope'.load_extension('project')
