@@ -3,7 +3,7 @@ Plug 'karb94/neoscroll.nvim'
 function SetupNeoscroll()
 lua << EOF
 require('neoscroll').setup({
-	mappings = {'<C-u>', 'C-d'}
+	mappings = {'<C-u>', '<C-d>'}
 })
 EOF
 endfunction
