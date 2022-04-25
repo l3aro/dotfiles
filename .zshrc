@@ -144,8 +144,10 @@ export NVM_DIR="$HOME/.nvm"
 
 alias pa="php artisan"
 alias change_php="sudo update-alternatives --config php"
-alias nv="nvim"
-alias la="ls -a"
+alias la="ls -la"
+alias v="nvim"
+alias vh="nvim ."
+alias lg="lazygit"
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
 eval "$(zoxide init zsh)"
