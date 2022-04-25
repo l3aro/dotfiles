@@ -1,0 +1,5 @@
+os:
+  editCommand: 'code'
+  editCommandTemplate: '{{editor}} --goto {{filename}}:{{line}}'
+  openCommand: 'code -rg {{filename}}'
+
