@@ -5,7 +5,6 @@ nmap <leader>vc :edit ~/.config/nvim/coc-settings.json<cr>
 nmap <leader>vr :source ~/.config/nvim/init.vim<cr>
 
 nmap <leader>Q :bufdo bdelete<cr>
-nmap <leader>fs :Sayonara!<cr>
 map <esc> :noh <CR>
 
 " Allow gf to open/create non exists file
