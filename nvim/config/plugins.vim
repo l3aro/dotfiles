@@ -13,6 +13,7 @@ source ~/.config/nvim/config/plugins/nerdtree.vim
 source ~/.config/nvim/config/plugins/treesitter.vim
 source ~/.config/nvim/config/plugins/themes.vim
 source ~/.config/nvim/config/plugins/coc.vim
+source ~/.config/nvim/config/plugins/lsp.vim
 source ~/.config/nvim/config/plugins/multiple-cursors.vim
 source ~/.config/nvim/config/plugins/rooter.vim
 source ~/.config/nvim/config/plugins/wordmotion.vim
