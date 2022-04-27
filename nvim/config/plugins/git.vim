@@ -1,5 +1,5 @@
-Plug 'APZelos/blamer.nvim'
-Plug 'rhysd/git-messenger.vim'
+Plug 'https://github.com/APZelos/blamer.nvim'
+Plug 'https://github.com/rhysd/git-messenger.vim'
 
 let g:blamer_enabled = 1
 let g:blamer_delay = 500

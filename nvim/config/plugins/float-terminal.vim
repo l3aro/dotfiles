@@ -1,4 +1,4 @@
-Plug 'voldikss/vim-floaterm'
+Plug 'https://github.com/voldikss/vim-floaterm'
 
 let g:floaterm_keymap_toggle = '<F1>'
 let g:floaterm_keymap_next   = '<F2>'

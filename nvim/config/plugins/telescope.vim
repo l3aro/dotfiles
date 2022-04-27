@@ -1,10 +1,10 @@
-Plug 'nvim-lua/popup.nvim'
-Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim'
-Plug 'nvim-telescope/telescope-project.nvim'
-Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
-Plug 'nvim-telescope/telescope-media-files.nvim'
-Plug 'jvgrootveld/telescope-zoxide'
+Plug 'https://github.com/nvim-lua/popup.nvim'
+Plug 'https://github.com/nvim-lua/plenary.nvim'
+Plug 'https://github.com/nvim-telescope/telescope.nvim'
+Plug 'https://github.com/nvim-telescope/telescope-project.nvim'
+Plug 'https://github.com/nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
+Plug 'https://github.com/nvim-telescope/telescope-media-files.nvim'
+Plug 'https://github.com/jvgrootveld/telescope-zoxide'
 
 " Find files using Telescope command-line sugar.
 nnoremap <C-p> <cmd>Telescope find_files<cr>

@@ -1,5 +1,5 @@
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-Plug 'lewis6991/spellsitter.nvim'
+Plug 'https://github.com/nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'https://github.com/lewis6991/spellsitter.nvim'
 
 function TreesitterSetup()
 lua << EOF

@@ -1,4 +1,4 @@
-Plug 'karb94/neoscroll.nvim'
+Plug 'https://github.com/karb94/neoscroll.nvim'
 
 function SetupNeoscroll()
 lua << EOF

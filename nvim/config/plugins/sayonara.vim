@@ -1,3 +1,3 @@
-Plug 'mhinz/vim-sayonara', { 'on': 'Sayonara' }
+Plug 'https://github.com/mhinz/vim-sayonara', { 'on': 'Sayonara' }
 
 nmap <leader>fs :Sayonara!<cr>

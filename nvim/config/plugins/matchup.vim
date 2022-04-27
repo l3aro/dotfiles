@@ -1,1 +1,1 @@
-Plug 'andymass/vim-matchup'
+Plug 'https://github.com/andymass/vim-matchup'
