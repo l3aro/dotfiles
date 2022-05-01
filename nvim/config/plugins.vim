@@ -7,15 +7,13 @@ endif
 
 call plug#begin(data_dir . '/plugins')
 
+source ~/.config/nvim/config/plugins/themes.vim
 source ~/.config/nvim/config/plugins/telescope.vim
-source ~/.config/nvim/config/plugins/airline.vim
 source ~/.config/nvim/config/plugins/nerdtree.vim
 source ~/.config/nvim/config/plugins/treesitter.vim
-source ~/.config/nvim/config/plugins/themes.vim
 source ~/.config/nvim/config/plugins/coc.vim
 source ~/.config/nvim/config/plugins/lsp.vim
 source ~/.config/nvim/config/plugins/multiple-cursors.vim
-source ~/.config/nvim/config/plugins/rooter.vim
 source ~/.config/nvim/config/plugins/wordmotion.vim
 source ~/.config/nvim/config/plugins/prettier.vim
 source ~/.config/nvim/config/plugins/nerd-commenter.vim
@@ -25,7 +23,6 @@ source ~/.config/nvim/config/plugins/sayonara.vim
 source ~/.config/nvim/config/plugins/scroll.vim
 source ~/.config/nvim/config/plugins/dashboard.vim
 source ~/.config/nvim/config/plugins/git.vim
-source ~/.config/nvim/config/plugins/sneak.vim
 source ~/.config/nvim/config/plugins/easymotion.vim
 source ~/.config/nvim/config/plugins/float-terminal.vim
 
