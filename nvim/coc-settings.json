@@ -7,5 +7,6 @@
 	"explorer.previewAction.onHover": false,
 	"explorer.keyMappings.global": {
 		"v": "open:vsplit"
-	}
+	},
+    "explorer.file.showHiddenFiles": true,
 }

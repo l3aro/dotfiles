@@ -5,4 +5,3 @@ let g:coc_global_extensions = [
 \ ]
 
 nnoremap <silent> <C-b> :CocCommand explorer --position right<CR>
-
