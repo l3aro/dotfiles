@@ -4,9 +4,13 @@ alias change_php="sudo update-alternatives --config php"
 alias la="ls -la"
 alias v="nvim"
 alias vh="nvim ."
+alias ch="code ."
 alias lg="lazygit"
 alias sz="source ~/.zshrc"
 alias vz="nvim ~/.zshrc"
+alias ls="exa"
+alias ll="exa -alh"
+alias tree="exa --tree"
 
 export KEYTIMEOUT=1
 
