@@ -3,10 +3,10 @@ Plug 'https://github.com/tomasiser/vim-code-dark'
 Plug 'https://github.com/navarasu/onedark.nvim'
 Plug 'https://github.com/itchyny/lightline.vim'
 
-autocmd User PlugLoaded ++nested colorscheme codedark
+autocmd User PlugLoaded ++nested colorscheme onedark
 
 let g:lightline = { 
-       \ 'colorscheme': 'wombat',
+       \ 'colorscheme': 'one',
        \ 'active': {
        \   'left': [ ['mode', 'paste'],
        \             ['fugitive', 'readonly', 'filename', 'modified'] ],

@@ -8,9 +8,13 @@ alias ch="code ."
 alias lg="lazygit"
 alias sz="source ~/.zshrc"
 alias vz="nvim ~/.zshrc"
-alias ls="exa"
-alias ll="exa -alh"
-alias tree="exa --tree"
+alias ls="colorls"
+alias ll="colorls -lA --sd --gs"
+alias tree="colorls --tree --gs"
+alias f='z $(fd --type d --hidden --exclude .git --exclude node_module --exclude .cache --exclude .npm --exclude .mozilla --exclude .meteor --exclude .nv | fzf)'
+alias mkfile="install -Dv /dev/null"
+
+source $(dirname $(gem which colorls))/tab_complete.sh
 
 export KEYTIMEOUT=1
 
