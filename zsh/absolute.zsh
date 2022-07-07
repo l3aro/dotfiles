@@ -14,6 +14,10 @@ alias tree="colorls --tree --gs"
 alias f='z $(fd --type d --hidden --exclude .git --exclude node_module --exclude .cache --exclude .npm --exclude .mozilla --exclude .meteor --exclude .nv | fzf)'
 alias mkfile="install -Dv /dev/null"
 
+pb() {
+    php vendor/bin/$@
+}
+
 source $(dirname $(gem which colorls))/tab_complete.sh
 
 export KEYTIMEOUT=1
