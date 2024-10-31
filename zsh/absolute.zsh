@@ -18,6 +18,19 @@ pb() {
     php vendor/bin/$@
 }
 
+tx() {
+    local session_name="$1"
+    
+    # Check if the session exists
+    if tmux has-session -t "$session_name" 2>/dev/null; then
+        # Attach to the existing session
+        tmux attach -t "$session_name"
+    else
+        # Create a new session
+        tmux new-session -s "$session_name"
+    fi
+}
+
 source $(dirname $(gem which colorls))/tab_complete.sh
 
 export KEYTIMEOUT=1
